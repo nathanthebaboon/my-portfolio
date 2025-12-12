@@ -200,7 +200,7 @@ const sections: ProjectSection[] = [
       {
         title: "Board vs Bonds Case Study Leadership Case",
         type:
-          "Organisational Behaviour and Human Resource Assignment",
+          "Organisational Behaviour and Human Resource",
         year: "2025",
         description:
           "Case study on Board vs Bonds draw out leadership lessons for senior management.",
