@@ -110,12 +110,21 @@ const sections: ProjectSection[] = [
       },
       {
         title:
-          "Does the Options Market Underreact to Firms' Left Tail Risk",
+          "Does the Options Market Underreact to Firms' Left Tail Risk Presentation",
         type: "Financial Risk Management",
         year: "2025",
         description:
-          "Risk management paper studying options markets’ reaction to left-tail risk in equity returns.",
+          "Presentation on a paper studying options markets’ reaction to left-tail risk in equity returns.",
         link: "/files/options-underreaction-to-left-tail-risk.pdf",
+      },
+      {
+        title:
+          "Does the Options Market Underreact to Firms' Left Tail Risk Report",
+        type: "Financial Risk Management",
+        year: "2025",
+        description:
+          "Report on a paper studying options markets’ reaction to left-tail risk in equity returns.",
+        link: "/files/options-underreaction-to-left-tail-risk-report.pdf",
       },
       {
         title:
@@ -144,12 +153,29 @@ const sections: ProjectSection[] = [
           "Analysis of KlimaDAO’s model in voluntary carbon markets and its financial and ESG implications.",
         link: "/files/klima-dao.pdf",
       },
+      {
+        title:
+          "Getting Married to Get Divorced - The Merger and Separation of Dow and DuPont",
+        type: "Mergers and Acquisitions",
+        year: "2025",
+        description:
+          "A study of the merger and eventual separation of Dow and DuPont.",
+        link: "/files/dow-dupont-merger.pdf",
+      },
     ],
   },
   {
     title: "Branding and Marketing",
     subtitle: "Coursework completed as part of the Marketing, Brand Strategy and Consumer behaviour modules",
     projects: [
+      {
+        title: "Rebranding Formula 1",
+        type: "Consumer Behaviour",
+        year: "2024",
+        description:
+          "A study into the rebranding of Formula 1 using consumer behaviour concepts such as perception and attitude.",
+        link: "/files/rebranding-f1.pdf",
+      },
       {
         title: "Pitch Deck for Koufit by Koufu",
         type: "Marketing",
