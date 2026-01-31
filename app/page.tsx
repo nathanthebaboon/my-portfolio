@@ -26,6 +26,7 @@ const sections: ProjectSection[] = [
         description:
           "Analytics project to detect suspicious refund claims and reduce financial leakage for GrabFood.",
         link: "/files/grab-refund-claims.pdf",
+        file: "/files/grab-refund-claims.pdf"
       },
       {
         title: "Pitch Deck for SkillsSphere",
@@ -34,6 +35,7 @@ const sections: ProjectSection[] = [
         description:
           "Pitch deck for SkillsSphere, a platform focused on skills mapping and workforce development.",
         link: "/files/skillsphere-pitch-deck.pdf",
+        file: "/files/skillsphere-pitch-deck.pdf"
       },
       {
         title:
@@ -43,6 +45,7 @@ const sections: ProjectSection[] = [
         description:
           "Conceptual design of a digital platform for strategic workforce development and skills planning.",
         link: "/files/digital-transformation-strat-workforce-dev.pdf",
+        file: "/files/digital-transformation-strat-workforce-dev.pdf"
       },
 
       {
@@ -52,6 +55,7 @@ const sections: ProjectSection[] = [
         description:
           "Operations management case analysing capacity, bottlenecks and production decisions at Scharffen Bergen.",
         link: "/files/scharffen-bergen.pdf",
+        file: "/files/scharffen-bergen.pdf"
       },
       {
         title: "Scharffen Bergen Chocolate Maker Annex",
@@ -59,7 +63,8 @@ const sections: ProjectSection[] = [
         year: "2024",
         description:
           "Annex materials (data and analysis) supporting the Scharffen Bergen operations management case.",
-        link: "/files/scharffen-bergen-annex.xlsx",
+        link: "/files/scharffen-bergen-annex.pdf",
+        file: "/files/scharffen-bergen-annex.pdf"
       },
       {
         title: "Three Jays Corporation",
@@ -68,6 +73,7 @@ const sections: ProjectSection[] = [
         description:
           "Operations case focused on inventory, demand management and process decisions at Three Jays.",
         link: "/files/three-jays.pdf",
+        file: "/files/three-jays.pdf"
       },
     ],
   },
@@ -75,30 +81,15 @@ const sections: ProjectSection[] = [
     title: "Finance and Accounting",
     subtitle: "Coursework completed as part of the specialisation in finance requirements",
     projects: [
-            {
-        title: "Evaluation of Mary Chia Holdings",
-        type: "Corporate Finance",
-        year: "2024",
-        description:
-          "DCF and relative valuation of Mary Chia Holdings, combining quantitative modelling and qualitative assessment.",
-        link: "/files/mary-chia-holdings-eval.pdf",
-      },
-
       {
-        title: "Acquisition of Heinz Report",
-        type: "Financial Accounting",
+        title:
+          "The Merger and Separation of Dow and DuPont",
+        type: "Mergers and Acquisitions",
         year: "2025",
         description:
-          "Report on the Heinz acquisition with emphasis on accounting treatment and financial reporting implications.",
-        link: "/files/heinz-report.pdf",
-      },
-      {
-        title: "Acquisition of Heinz Presentation",
-        type: "Financial Accounting",
-        year: "2025",
-        description:
-          "Presentation examining the Heinz acquisition from an accounting and financial perspective.",
-        link: "/files/heinz.pdf",
+          "A study of the merger and eventual separation of Dow and DuPont.",
+        link: "/files/dow-dupont-merger.pdf",
+        file: "/files/dow-dupont-merger.pdf"
       },
       {
         title: "GetGo",
@@ -107,7 +98,36 @@ const sections: ProjectSection[] = [
         description:
           "Entrepreneurial finance analysis of GetGo, focusing on funding, growth and unit economics.",
         link: "/files/getgo.pdf",
+        file: "/files/getgo.pdf"
       },
+      {
+        title: "Acquisition of Heinz Presentation",
+        type: "Financial Accounting",
+        year: "2025",
+        description:
+          "Presentation examining the Heinz acquisition from an accounting and financial perspective.",
+        link: "/files/heinz.pdf",
+        file: "/files/heinz.pdf"
+      },
+      {
+        title: "Acquisition of Heinz Report",
+        type: "Financial Accounting",
+        year: "2025",
+        description:
+          "Report on the Heinz acquisition with emphasis on accounting treatment and financial reporting implications.",
+        link: "/files/heinz-report.pdf",
+        file: "/files/heinz-report.pdf"
+      },
+      {
+        title: "Evaluation of Mary Chia Holdings",
+        type: "Corporate Finance",
+        year: "2024",
+        description:
+          "DCF and relative valuation of Mary Chia Holdings, combining quantitative modelling and qualitative assessment.",
+        link: "/files/mary-chia-holdings-eval.pdf",
+        file: "/files/mary-chia-holdings-eval.pdf"
+      },
+
       {
         title:
           "Does the Options Market Underreact to Firms' Left Tail Risk Presentation",
@@ -116,6 +136,7 @@ const sections: ProjectSection[] = [
         description:
           "Presentation on a paper studying options markets’ reaction to left-tail risk in equity returns.",
         link: "/files/options-underreaction-to-left-tail-risk.pdf",
+        file: "/files/options-underreaction-to-left-tail-risk.pdf"
       },
       {
         title:
@@ -125,15 +146,7 @@ const sections: ProjectSection[] = [
         description:
           "Report on a paper studying options markets’ reaction to left-tail risk in equity returns.",
         link: "/files/options-underreaction-to-left-tail-risk-report.pdf",
-      },
-      {
-        title:
-          "The Impact of Artificial Intelligence on the Hedge Fund Industry Report",
-        type: "Hedge Funds",
-        year: "2025",
-        description:
-          "Detailed research report on how AI is reshaping hedge fund strategies, operations and competition.",
-        link: "/files/impact-of-ai-hedge-funds-report.pdf",
+        file: "/files/options-underreaction-to-left-tail-risk-report.pdf"
       },
       {
         title:
@@ -143,7 +156,19 @@ const sections: ProjectSection[] = [
         description:
           "Presentation-style analysis of AI adoption and implications in the hedge fund industry.",
         link: "/files/impact-of-ai-hedge-funds.pdf",
+        file: "/files/impact-of-ai-hedge-funds.pdf"
       },
+      {
+        title:
+          "The Impact of Artificial Intelligence on the Hedge Fund Industry Report",
+        type: "Hedge Funds",
+        year: "2025",
+        description:
+          "Detailed research report on how AI is reshaping hedge fund strategies, operations and competition.",
+        link: "/files/impact-of-ai-hedge-funds-report.pdf",
+        file: "/files/impact-of-ai-hedge-funds-report.pdf"
+      },
+
       {
         title:
           "Introducing Klima Decentralised Autonomous Organisation",
@@ -152,15 +177,7 @@ const sections: ProjectSection[] = [
         description:
           "Analysis of KlimaDAO’s model in voluntary carbon markets and its financial and ESG implications.",
         link: "/files/klima-dao.pdf",
-      },
-      {
-        title:
-          "Getting Married to Get Divorced - The Merger and Separation of Dow and DuPont",
-        type: "Mergers and Acquisitions",
-        year: "2025",
-        description:
-          "A study of the merger and eventual separation of Dow and DuPont.",
-        link: "/files/dow-dupont-merger.pdf",
+        file: "/files/klima-dao.pdf"
       },
     ],
   },
@@ -175,6 +192,7 @@ const sections: ProjectSection[] = [
         description:
           "A study into the rebranding of Formula 1 using consumer behaviour concepts such as perception and attitude.",
         link: "/files/rebranding-f1.pdf",
+        file: "/files/rebranding-f1.pdf"
       },
       {
         title: "Pitch Deck for Koufit by Koufu",
@@ -183,6 +201,7 @@ const sections: ProjectSection[] = [
         description:
           "Concept and go-to-market pitch for a healthy, fitness-focused meals brand under Koufu.",
         link: "/files/koufit-pitch.pdf",
+        file: "/files/koufit-pitch.pdf"
       },
       {
         title: "Case Study on Vinamilk",
@@ -191,6 +210,7 @@ const sections: ProjectSection[] = [
         description:
           "Developed a brand strategy for Vinamilk focused on growth in emerging Asian markets.",
         link: "/files/vinamilk-case-study.pdf",
+        file: "/files/vinamilk-case-study.pdf"
       },
       {
         title: "Case Study on Nike",
@@ -199,6 +219,7 @@ const sections: ProjectSection[] = [
         description:
           "Analysed Nike’s brand strategy, consumer behaviour, and recommendations in the sportswear segment.",
         link: "/files/nike-case-study.pdf",
+        file: "/files/nike-case-study.pdf"
       },
     ],
   },
@@ -213,6 +234,7 @@ const sections: ProjectSection[] = [
         description:
           "Strategic management project on building sustainable competitive advantage for Briefly.",
         link: "/files/briefly-competitive-advantage.pdf",
+        file: "/files/briefly-competitive-advantage.pdf"
       },
       {
         title:
@@ -222,15 +244,7 @@ const sections: ProjectSection[] = [
         description:
           "Strategic management project proposing initiatives to improve talent retention in the SAF.",
         link: "/files/talent-retention-saf.pdf",
-      },
-      {
-        title: "Board vs Bonds Case Study Leadership Case",
-        type:
-          "Organisational Behaviour and Human Resource",
-        year: "2025",
-        description:
-          "Case study on Board vs Bonds draw out leadership lessons for senior management.",
-        link: "/files/board-v-bonds-case.pdf",
+        file: "/files/talent-retention-saf.pdf"
       },
       {
         title: "Board vs Bonds Case Study Presentation",
@@ -240,7 +254,19 @@ const sections: ProjectSection[] = [
         description:
           "Presentation on the Board vs Bonds leadership case, focusing on people dynamics and organisational behaviour.",
         link: "/files/board-v-bonds.pdf",
+        file: "/files/board-v-bonds.pdf"
       },
+      {
+        title: "Board vs Bonds Case Study Leadership Case",
+        type:
+          "Organisational Behaviour and Human Resource",
+        year: "2025",
+        description:
+          "Case study on Board vs Bonds draw out leadership lessons for senior management.",
+        link: "/files/board-v-bonds-case.pdf",
+        file: "/files/board-v-bonds-case.pdf"
+      },
+
       {
         title: "Board vs Bonds Case Study Insights",
         type:
@@ -249,6 +275,7 @@ const sections: ProjectSection[] = [
         description:
           "Insights guide summarising key learnings and takeaways from the Board vs Bonds case.",
         link: "/files/board-v-bonds-insights.pdf",
+        file: "/files/board-v-bonds-insights.pdf"
       },
 
     ],
@@ -264,6 +291,7 @@ const sections: ProjectSection[] = [
         description:
           "Investor-focused pitch deck for Briefly, an AI-powered business insights platform for professionals.",
         link: "/files/briefly-pitch-deck-investor.pdf",
+        file: "/files/briefly-pitch-deck-investor.pdf"
       },
       {
         title: "Sales Pitch Deck for The News Concierge",
@@ -272,6 +300,7 @@ const sections: ProjectSection[] = [
         description:
           "Sales deck for a curated news concierge service designed for busy professionals.",
         link: "/files/news-concierge-pitch-deck-sales.pdf",
+        file: "/files/news-concierge-pitch-deck-sales.pdf"
       },
       {
         title: "Sales Pitch Deck for Advaisers",
@@ -280,6 +309,7 @@ const sections: ProjectSection[] = [
         description:
           "Sales deck for Advaisers, a platform that turns tutors’ materials into AI Q&A assistants for students.",
         link: "/files/advaisers-pitch-deck-sales.pdf",
+        file: "/files/advaisers-pitch-deck-sales.pdf"
       },
     ],
   },
@@ -303,8 +333,6 @@ const skills = [
   "Open AI API",
   "Figma", 
   "Canva",
-  "ChatGPT",
-  "Gemini",
   "English", 
   "Mandarin", 
   "Malay"
@@ -421,6 +449,7 @@ export default function Home() {
 
             {/* WEBSITES */}
             <div className="mt-4 space-y-1">
+
               <p
                 className="
                   text-sm text-zinc-600
@@ -429,7 +458,24 @@ export default function Home() {
                   hover:tracking-[0.04em]
                 "
               >
-                <span className="font-medium text-zinc-800">Advaisers:</span>{" "}
+                <span className="font-bold text-zinc-800">Current Projects:</span>{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-2"
+                >
+                </a>
+              </p>
+
+              <p
+                className="
+                  text-sm text-zinc-600
+                  transition-all duration-300
+                  hover:text-[#d4af37]
+                  hover:tracking-[0.04em]
+                "
+              >
+                <span className="font-bold text-zinc-800">Advaisers:</span>{" "}
                 <a
                   href="https://www.advaisers.com"
                   target="_blank"
@@ -448,14 +494,33 @@ export default function Home() {
                   hover:tracking-[0.04em]
                 "
               >
-                <span className="font-medium text-zinc-800">The News Concierge:</span>{" "}
+                <span className="font-bold text-zinc-800">The Portfolio Atelier:</span>{" "}
                 <a
-                  href="https://www.thenewsconcierge.com"
+                  href="https://www.theportfolioatelier.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline underline-offset-2"
                 >
-                  www.thenewsconcierge.com
+                  www.theportfolioatelier.com
+                </a>
+              </p>
+
+              <p
+                className="
+                  text-sm text-zinc-600
+                  transition-all duration-300
+                  hover:text-[#d4af37]
+                  hover:tracking-[0.04em]
+                "
+              >
+                <span className="font-bold text-zinc-800">Moonie Rocket:</span>{" "}
+                <a
+                  href="https://www.moonierocket.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-2"
+                >
+                  www.moonierocket.com
                 </a>
               </p>
             </div>
@@ -661,45 +726,54 @@ export default function Home() {
               {/* Project cards */}
               <div className="grid gap-4 md:grid-cols-2">
                 {section.projects.map((p) => (
+
                   <a
                     key={p.title}
                     href={p.link}
                     className="
                       group relative overflow-hidden rounded-2xl
                       border border-zinc-200 bg-white/90
-                      p-4 shadow-sm transition
+                      shadow-sm transition
                       hover:-translate-y-[2px]
                       hover:shadow-md
                       hover:border-[#d4af37]/80
                     "
                   >
-                    <div
-                      className="
-                        absolute inset-y-0 right-[-40%] w-[60%]
-                        bg-gradient-to-l
-                        from-[#d4af37]/20 via-amber-100/40 to-transparent
-                        opacity-0 transition
-                        group-hover:opacity-100
-                      "
-                    />
-                    <div className="flex items-baseline justify-between gap-2 mb-1 relative">
-                      <h3 className="font-semibold text-sm md:text-base text-zinc-900">
-                        {p.title}
-                      </h3>
-                      <span className="text-[11px] text-zinc-500">
-                        {p.year}
-                      </span>
+                    {/* PDF thumbnail */}
+                    <div className="relative h-40 md:h-56 w-full overflow-hidden bg-zinc-100">
+                      <object
+                        data={`${p.file}#page=1&view=FitH`}
+                        type="application/pdf"
+                        className="h-full w-full"
+                      />
+                      <div className="absolute inset-0" />
                     </div>
-                    <p className="text-[11px] uppercase tracking-[0.18em] text-[#b08d2c] mb-2">
-                      {p.type}
-                    </p>
-                    <p className="text-sm text-zinc-700 leading-snug">
-                      {p.description}
-                    </p>
-                    <p className="mt-3 text-xs text-[#b08d2c] font-medium">
-                      Open ↗
-                    </p>
+
+                    {/* Content */}
+                    <div className="p-4 relative">
+                      <div
+                        className="
+                          absolute inset-y-0 right-[-40%] w-[60%]
+                          bg-gradient-to-l
+                          from-[#d4af37]/20 via-amber-100/40 to-transparent
+                          opacity-0 transition
+                          group-hover:opacity-100
+                        "
+                      />
+                      <div className="flex items-baseline justify-between gap-2 mb-1 relative">
+                        <h3 className="font-semibold text-sm md:text-base text-zinc-900">
+                          {p.title}
+                        </h3>
+                        <span className="text-[11px] text-zinc-500">{p.year}</span>
+                      </div>
+                      <p className="text-[11px] uppercase tracking-[0.18em] text-[#b08d2c] mb-2">
+                        {p.type}
+                      </p>
+                      <p className="text-sm text-zinc-700 leading-snug">{p.description}</p>
+                      <p className="mt-3 text-xs text-[#b08d2c] font-medium">Open ↗</p>
+                    </div>
                   </a>
+
                 ))}
               </div>
             </div>
