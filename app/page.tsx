@@ -6,6 +6,7 @@ type Project = {
   year: string;
   description: string;
   link: string;
+  file?: string;
 };
 
 type ProjectSection = {
